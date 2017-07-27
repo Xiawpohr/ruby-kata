@@ -1,3 +1,4 @@
 .vscode/*
 .bundle/*
 bin/*
+Gemfile.lock
