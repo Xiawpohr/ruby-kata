@@ -1,7 +1,7 @@
 require 'move_zeroes'
 RSpec.describe 'move_zeroes' do
-  let :parameter {[0, 1, 0, 3, 12]}
-  let :result { move_zeroes(parameter) }
+  let (:parameter) {[0, 1, 0, 3, 12]}
+  let (:result) { move_zeroes(parameter) }
 
   it 'given an array of numbers as parameter' do
     expect(parameter).to be_a_kind_of(Array)
